@@ -26,4 +26,8 @@ docker build -t microprofile-poc .
 docker run -d -p 8080:8080 -p 9990:9990 --name microprofile-poc microprofile-poc
 
 Using your favourite browser, navigate to: 
-http://localhost:8080/microprofile-poc/ws/helloworld
+* MicroProfile-Config POCs:
+    * http://localhost:8080/microprofile-poc/ws/config/application.name (will read a config parameters)
+    * http://localhost:8080/microprofile-poc/ws/config/application.version (will read a default config parameters)
+    * http://localhost:8080/microprofile-poc/ws/config/application.build (will read a config parameters using the Config class)
+    * http://localhost:8080/microprofile-poc/ws/config/JAVA_HOME (will read an environment variable)
