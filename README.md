@@ -1,12 +1,7 @@
 # MicroProfile POC
 
-This repository is a simple Jakarta EE 8 application,
-
-for experimenting with Eclipse MicroProfile
-
-built with Gradle, 
-
-deployed as a WildFly 18 docker image.
+This repository is a simple Jakarta EE 8 application, for experimenting with Eclipse MicroProfile.
+Built with Gradle and deployed as a WildFly 18 docker image.
 
 ## Prerequisites
 
