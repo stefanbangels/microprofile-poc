@@ -1,0 +1,21 @@
+apply plugin: 'war'
+ 
+group = 'org.assertdevelopments'
+version = '0.1-SNAPSHOT'
+ 
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    providedCompile 'jakarta.platform:jakarta.jakartaee-api:8.0.0'
+}
+ 
+compileJava {
+    targetCompatibility = '11'
+    sourceCompatibility = '11'
+}
+ 
+war{
+    archiveName 'microprofile-poc.war'
+}
